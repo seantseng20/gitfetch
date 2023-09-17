@@ -5,7 +5,6 @@
 
 .githubUser{
   font-family: sans-serif;
-
   display: grid;
   grid-template-columns: auto;
   grid-auto-rows:min-content;

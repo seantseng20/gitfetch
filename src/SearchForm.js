@@ -12,7 +12,7 @@ export default function SearchForm({value,onSearch=f=>f}){
 
     return(<>
         <div className="searchbar">
-            <input style type="text" placeholder="github id" value={searchId} onChange={changeHandler} required id="search01" name="q"/>
+            <input type="text" placeholder="github id" value={searchId} onChange={changeHandler} required id="search01" name="q"/>
            <button onClick={()=>onSearch(textinput.value)}>搜尋</button>
         </div>
         <GitHubUser login={value}/>
